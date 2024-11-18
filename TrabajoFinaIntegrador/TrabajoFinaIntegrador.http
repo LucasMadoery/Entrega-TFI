@@ -1,0 +1,6 @@
+@TrabajoFinaIntegrador_HostAddress = http://localhost:5137
+
+GET {{TrabajoFinaIntegrador_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

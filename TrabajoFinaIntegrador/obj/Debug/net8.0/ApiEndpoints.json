@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "TrabajoFinaIntegrador.Controllers.ProductController",
+    "Method": "Put",
+    "RelativePath": "Product",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "Negocio.ModeloProductos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinaIntegrador.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinaIntegrador.Controllers.ProductController",
+    "Method": "GetCategories",
+    "RelativePath": "Product/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinaIntegrador.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "Product/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinaIntegrador.Controllers.ProductController",
+    "Method": "Post",
+    "RelativePath": "Product/products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "Negocio.ModeloProductos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinaIntegrador.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "Product/products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
